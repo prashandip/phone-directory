@@ -24,6 +24,9 @@ export default class App extends Component {
               <div key={sub.id} className="grid-container">
                 <span className="grid-item">{sub.name}</span>
                 <span className="grid-item">{sub.phone}</span>
+                <span className="grid-item">
+                  <button className="custom-btn delete-btn">Delete</button>
+                </span>
               </div>
             );
           })}
