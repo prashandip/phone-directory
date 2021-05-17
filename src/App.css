@@ -1,0 +1,67 @@
+.component-body-container {
+  padding: 20px;
+}
+
+.custom-btn {
+  padding: 10px;
+  border: none;
+  margin-right: 10px;
+  text-transform: uppercase;
+  width: 80px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.add-btn {
+  background: #7ab97a;
+  color: #fff;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 40% 30% auto;
+  margin-bottom: 10px;
+}
+
+.heading-container {
+  margin: 30px 0 30px 0;
+  width: 100%;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.15rem;
+  word-wrap: break-word;
+  padding-right: 10px;
+}
+
+.name-heading,
+.phone-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #808080;
+  text-transform: uppercase;
+}
+
+/* button.btn-add {
+  background-color: rgb(31, 194, 17);
+  text-transform: uppercase;
+  padding: 10px 20px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: none;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+div.details-header {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+div.details-header span {
+  text-transform: uppercase;
+  margin-right: 100px;
+  font-weight: bold;
+  color: rgb(31, 194, 17);
+} */
